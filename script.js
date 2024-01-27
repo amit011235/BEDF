@@ -9,6 +9,16 @@ document.addEventListener('DOMContentLoaded', function() {
             this.style.backgroundColor = getRandomColor();
         });
     });
+    document.addEventListener('DOMContentLoaded', function() {
+    const toggleBtn = document.getElementById('toggleBtn');
+    const introSection = document.getElementById('introSection');
+    const detailsSection = document.getElementById('detailsSection');
+
+    toggleBtn.addEventListener('click', function() {
+        introSection.classList.add('hidden');
+        detailsSection.classList.remove('hidden');
+    });
+});
 document.addEventListener('DOMContentLoaded', function() {
     const tabsNav = document.getElementById('tabsNav');
     const toggleBtn = document.getElementById('toggleBtn');
