@@ -46,3 +46,15 @@ footer {
     background-color: #007BFF;
     color: white;
 }
+#tabsNav {
+    display: none;
+}
+
+.show-tabs {
+    display: block;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+}
