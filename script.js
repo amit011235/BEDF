@@ -9,6 +9,14 @@ document.addEventListener('DOMContentLoaded', function() {
             this.style.backgroundColor = getRandomColor();
         });
     });
+document.addEventListener('DOMContentLoaded', function() {
+    const tabsNav = document.getElementById('tabsNav');
+    const toggleBtn = document.getElementById('toggleBtn');
+
+    toggleBtn.addEventListener('click', function() {
+        tabsNav.classList.toggle('show-tabs');
+    });
+});
 
     // Function to generate a random color
     function getRandomColor() {
